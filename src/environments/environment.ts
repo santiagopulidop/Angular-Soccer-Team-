@@ -3,7 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // Se añade la cofiguracion de la realtime database de fire base
+  // Luego se ejecuta en la consola 'npm i -s firebase angularfire2'
+  firebase: {
+    apiKey: 'AIzaSyDLYYf2DYRns_FRbxWCxUkEyLkp8PmPR7Y',
+    authDomain: 'angularts-platzi-sp.firebaseapp.com',
+    databaseURL: 'https://angularts-platzi-sp.firebaseio.com',
+    projectId: 'angularts-platzi-sp',
+    storageBucket: 'angularts-platzi-sp.appspot.com',
+    messagingSenderId: '486541325324',
+    appId: '1:486541325324:web:68e6b79f60224c53f86a29',
+    measurementId: 'G-PGDPPSXBBG',
+  },
 };
 
 /*
